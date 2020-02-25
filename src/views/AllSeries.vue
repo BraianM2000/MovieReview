@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h3>Home</h3>
+      <h3>Todas las series</h3>
   </div>
 </template>
 

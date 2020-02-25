@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h3>Home</h3>
+      Pelicula
   </div>
 </template>
 

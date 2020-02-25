@@ -10,9 +10,34 @@ const routes = [
     component: () => import('../views/Home.vue')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
+    path: '/profile',
+    name: 'Profile',
+    component: () => import('../views/Profile.vue')
+  },
+  {
+    path: '/news',
+    name: 'News',
+    component: () => import('../views/News.vue')
+  },
+  {
+    path: '/allmovies',
+    name: 'AllMovies',
+    component: () => import('../views/AllMovies.vue')
+  },
+  {
+    path: '/allseries',
+    name: 'AllSeries',
+    component: () => import('../views/AllSeries.vue')
+  },
+  {
+    path: '/serie',
+    name: 'Serie',
+    component: () => import('../views/Serie.vue')
+  },
+  {
+    path: '/movie',
+    name: 'Movie',
+    component: () => import('../views/Movie.vue')
   }
 ]
 
