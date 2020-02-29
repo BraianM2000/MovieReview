@@ -30,12 +30,12 @@ const routes = [
     component: () => import('../views/AllSeries.vue')
   },
   {
-    path: '/serie',
+    path: '/serie/:id',
     name: 'Serie',
     component: () => import('../views/Serie.vue')
   },
   {
-    path: '/movie',
+    path: '/movie/:id',
     name: 'Movie',
     component: () => import('../views/Movie.vue')
   }
