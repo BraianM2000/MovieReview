@@ -12,11 +12,13 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
+            <!--
               <b-nav-item to="/news">
                 <span class="font-nav">
                   Novedades
                 </span>
               </b-nav-item>
+              -->
               <b-nav-item to="/allmovies">
                 <span class="font-nav">
                   Películas
@@ -117,7 +119,7 @@ export default {
 }
 
 .title-modal-nav{
-  font-family: 'Roboto', '';
+  font-family: 'Roboto', sans-serif;
   margin-top: 10px;
   margin-bottom: 20px;
 }
