@@ -32,8 +32,8 @@
               <p class="text-info-movie">{{Movie.overview}}</p>
             </div>
             <p class="text-info-movie"><strong>Fecha de estreno: </strong> {{Movie.release_date}}</p>
-            <p class="text-info-movie"><strong>Titulo original: </strong> {{Movie.original_title}}</p>
-            <p class="text-info-movie"><strong>Duracion: </strong>{{Movie.runtime}} minutos</p>
+            <p class="text-info-movie"><strong>Título original: </strong> {{Movie.original_title}}</p>
+            <p class="text-info-movie"><strong>Duración: </strong>{{Movie.runtime}} minutos</p>
             <h4 class="text-info-movie"><strong>Generos:</strong></h4>
             <div class="">
               <b-button variant="dark" to="/" class="text-info-movie button-movie" v-bind:key="genre.id" v-for="genre in Movie.genres">{{genre.name}}</b-button>
