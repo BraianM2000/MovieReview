@@ -1,5 +1,6 @@
 <template>
   <div>
+      COMENTARIOS
   </div>
 </template>
 
